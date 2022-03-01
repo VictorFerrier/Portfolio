@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    
+}
+
+
+/*--SECTION--*/
+
+
+.sec1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../image/image\ 1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2{
+    position: relative;
+    width: 100%;
+    min-height: 66vh;
+    background: url(../image/image2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3{
+    position: relative;
+    width: 100%;
+    min-height: 33vh;
+    background: url(../image/image3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4{
+    position: relative;
+    width: 100%;
+    min-height: 94vh;
+    background: url(../image/image4.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h5{
+	color: #f9004d;
+	font-size: 23px;
+	margin-bottom: 58px;
+}
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+    font-style: none;
+    font-family: Arial;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 91px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+/*--NAVBAR--*/
+
+.navbar{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    justify-content: space-between;
+    padding: 40px 100px;
+    transition: 0.6s;
+}
+
+.navbar .container{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .container a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+.navbar .container img{
+    height: 60px;
+    
+}
+
+nav.black .navbar{
+    background-color: rgb(255, 255, 255);
+
+}
+nav.black .navbar .container a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
