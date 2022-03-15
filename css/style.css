@@ -52,12 +52,27 @@ body{
     justify-content: center;
     align-items: center;
 }
+.sec10{
+    position: relative;
+    width: 100%;
+    min-height: 58vh;
+    background: url(../image/image10.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 h5{
 	color: #f9004d;
 	font-size: 23px;
 	margin-bottom: 58px;
+}
+h6{
+	color: #f9004d;
+	font-size: 23px;
+	margin-bottom: 20px;
 }
 .service{
 	background: #101010;
@@ -67,6 +82,15 @@ h5{
 .title h2{
 	color: white;
 	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+    font-style: none;
+    font-family: Arial;
+}
+.title h3{
+	color: white;
+	font-size: 50px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
@@ -90,13 +114,24 @@ h5{
 	overflow: hidden;
 	text-align: center;
 }
+.card2{
+	height: 365px;
+	width: 335px;
+	padding: 40px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
 .pra p{
 	color: #fcfc;
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
 }
-.card .button{
+.button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -106,7 +141,7 @@ h5{
 	border-radius: 30px;
 	transition: .4s; 
 }
-.card .button:hover{
+.button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
