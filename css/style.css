@@ -62,6 +62,76 @@ body{
     justify-content: center;
     align-items: center;
 }
+.sec11{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/CréationPortfolio.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec12{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/MachineVirtuelle.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec13{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/projetBDE.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec13{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/SauvegardeNAS.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec14{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/Guide_d_installation.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec15{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/TPGLPI.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec16{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: url(../image/projetBDE.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 h5{
